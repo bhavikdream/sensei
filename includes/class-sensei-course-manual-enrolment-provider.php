@@ -236,7 +236,6 @@ class Sensei_Course_Manual_Enrolment_Provider implements Sensei_Course_Enrolment
 	 * @return int
 	 */
 	public static function get_version() {
-		// @todo change this to just increment an integer.
-		return filemtime( __FILE__ );
+		return 1;
 	}
 }
